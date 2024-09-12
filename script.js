@@ -129,7 +129,9 @@
 
 // Again same thing code
 
+
 // Numbers
+
 
 const ac = document.getElementById("ac");
 const one = document.getElementById("1");
