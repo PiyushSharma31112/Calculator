@@ -11,28 +11,28 @@
     <div class="main">
         <h1>Calculator</h1>
         <br>
-        <div class="result"></div>
+        <input class="result" readonly />
 
     <div class="cover">
             
-        <button class="box background3"   id="ac">Ac</button>
-        <button class="box background3"   id="%">%</button>
-        <button class="box background3"   id="/">/</button>
-        <button class="box background"    id="*">x</button>
-        <button class="box background2"   id="7">7</button>
-        <button class="box background2"   id="8">8</button>
-        <button class="box background2"   id="9">9</button>
-        <button class="box background"    id="-">-</button>
-        <button class="box background2"   id="4">4</button>
-        <button class="box background2"   id="5">5</button>
-        <button class="box background2"   id="6">6</button>
-        <button class="box background"    id="+">+</button>
-        <button class="box background2"   id="1">1</button>
-        <button class="box background2"   id="2">2</button>
-        <button class="box background2"   id="3">3</button>
-        <button class="box background"    id="=">=</button>
-        <button class="box2 background2"  id="0">0</button>
-        <button class="box3 background2"  id="dot">.</button>
+        <button class="box background3"  onclick="clearDisplay()">Ac</button>
+        <button class="box background3"  onclick="appendToDisplay('%')">%</button>
+        <button class="box background3"  onclick="appendToDisplay('/')">/</button>
+        <button class="box background"   onclick="appendToDisplay('*')">x</button>
+        <button class="box background2"  onclick="appendToDisplay('7')">7</button>
+        <button class="box background2"  onclick="appendToDisplay('8')">8</button>
+        <button class="box background2"  onclick="appendToDisplay('9')">9</button>
+        <button class="box background"   onclick="appendToDisplay('-')">-</button>
+        <button class="box background2"  onclick="appendToDisplay('4')">4</button>
+        <button class="box background2"  onclick="appendToDisplay('5')">5</button>
+        <button class="box background2"  onclick="appendToDisplay('6')">6</button>
+        <button class="box background"   onclick="appendToDisplay('+')">+</button>
+        <button class="box background2"  onclick="appendToDisplay('1')">1</button>
+        <button class="box background2"  onclick="appendToDisplay('2')">2</button>
+        <button class="box background2"  onclick="appendToDisplay('3')">3</button>
+        <button class="box background"   onclick="claculate()">=</button>
+        <button class="box2 background2" onclick="appendToDisplay('0')">0</button>
+        <button class="box3 background2" onclick="appendToDisplay('.')">.</button>
     </div>
    </div>
 

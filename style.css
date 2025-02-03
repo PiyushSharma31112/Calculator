@@ -21,6 +21,14 @@ body{
     flex-direction: column;
 }
 
+.result {
+    width: 23%;
+    background: #212121;
+    color: white;
+    border: none;
+    font-size: 3rem;
+}
+
 .cover{
     margin-top: 5vmin;
     height: 70vh;
